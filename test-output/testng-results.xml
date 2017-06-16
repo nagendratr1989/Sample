@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[eVersion actiTIME 2014 Pro]]>
+    </line>
+    <line>
+      <![CDATA[aVersion actiTIME 2014 Pro]]>
+    </line>
+    <line>
+      <![CDATA[Title is Matchin: actiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[Title is Matchin: actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[eBuild (build 20792),]]>
+    </line>
+    <line>
+      <![CDATA[aBuild (build 20792),]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24231" started-at="2017-05-23T13:29:45Z" finished-at="2017-05-23T13:30:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24231" started-at="2017-05-23T13:29:45Z" finished-at="2017-05-23T13:30:09Z">
+      <class name="test.InvalidLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:test.InvalidLogin@20e2cbe0]" name="openApplication" is-config="true" duration-ms="3419" started-at="2017-05-23T18:59:55Z" finished-at="2017-05-23T18:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:3, instance:test.InvalidLogin@20e2cbe0]" name="testInvalidLogin" duration-ms="536" started-at="2017-05-23T18:59:58Z" finished-at="2017-05-23T18:59:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:test.InvalidLogin@20e2cbe0]" name="closeApplication" is-config="true" duration-ms="144" started-at="2017-05-23T18:59:59Z" finished-at="2017-05-23T18:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- test.InvalidLogin -->
+      <class name="test.VerifyIssueDate">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:test.VerifyIssueDate@675d3402]" name="openApplication" is-config="true" duration-ms="3238" started-at="2017-05-23T19:00:04Z" finished-at="2017-05-23T19:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testVerifyBuildNumber()[pri:5, instance:test.VerifyIssueDate@675d3402]" name="testVerifyBuildNumber" duration-ms="1542" started-at="2017-05-23T19:00:07Z" finished-at="2017-05-23T19:00:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyBuildNumber -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:test.VerifyIssueDate@675d3402]" name="closeApplication" is-config="true" duration-ms="148" started-at="2017-05-23T19:00:09Z" finished-at="2017-05-23T19:00:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- test.VerifyIssueDate -->
+      <class name="test.ValidLoginLogout">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:test.ValidLoginLogout@68be2bc2]" name="openApplication" is-config="true" duration-ms="3369" started-at="2017-05-23T18:59:50Z" finished-at="2017-05-23T18:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:2, instance:test.ValidLoginLogout@68be2bc2]" name="testValidLoginLogout" duration-ms="1612" started-at="2017-05-23T18:59:53Z" finished-at="2017-05-23T18:59:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is Matchin: actiTIME - Enter Time-Track]]>
+            </line>
+            <line>
+              <![CDATA[Title is Matchin: actiTIME - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:test.ValidLoginLogout@68be2bc2]" name="closeApplication" is-config="true" duration-ms="131" started-at="2017-05-23T18:59:55Z" finished-at="2017-05-23T18:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- test.ValidLoginLogout -->
+      <class name="test.VerifyBuildNumber">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:test.VerifyBuildNumber@28feb3fa]" name="openApplication" is-config="true" duration-ms="3149" started-at="2017-05-23T18:59:59Z" finished-at="2017-05-23T19:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testVerifyBuildNumber()[pri:4, instance:test.VerifyBuildNumber@28feb3fa]" name="testVerifyBuildNumber" duration-ms="1896" started-at="2017-05-23T19:00:02Z" finished-at="2017-05-23T19:00:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[eBuild (build 20792),]]>
+            </line>
+            <line>
+              <![CDATA[aBuild (build 20792),]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyBuildNumber -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:test.VerifyBuildNumber@28feb3fa]" name="closeApplication" is-config="true" duration-ms="167" started-at="2017-05-23T19:00:04Z" finished-at="2017-05-23T19:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- test.VerifyBuildNumber -->
+      <class name="test.VerifyVersion">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:test.VerifyVersion@51565ec2]" name="openApplication" is-config="true" duration-ms="3968" started-at="2017-05-23T18:59:45Z" finished-at="2017-05-23T18:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testVersion()[pri:1, instance:test.VerifyVersion@51565ec2]" name="testVersion" duration-ms="753" started-at="2017-05-23T18:59:49Z" finished-at="2017-05-23T18:59:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[eVersion actiTIME 2014 Pro]]>
+            </line>
+            <line>
+              <![CDATA[aVersion actiTIME 2014 Pro]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVersion -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:test.VerifyVersion@51565ec2]" name="closeApplication" is-config="true" duration-ms="125" started-at="2017-05-23T18:59:50Z" finished-at="2017-05-23T18:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- test.VerifyVersion -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
